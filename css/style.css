@@ -1,11 +1,9 @@
-/***********************
-BODY, HEADERS & LINKS
-***********************/
+/* BODY, HEADERS & LINKS */
 
 body {
 	font-family: 'Open Sans Condensed', sans-serif; 
 	background-image: url("../img/stone-wallpaper.jpg");
-	color: lightgrey; 
+	color: #D3D3D3; 
 	text-align:center; 
 }
 
@@ -22,9 +20,7 @@ a {
 	padding: 10px;
 }
 
-/***********************
-IMAGES
-***********************/
+/* IMAGES */
 
 #icons img {
 	margin-top: 5px;
@@ -36,25 +32,26 @@ IMAGES
 .gallery img {
 	max-width: 600px;
 	max-height: 500px;
-	border: 7px solid lightgrey;
+	border: 7px solid #D3D3D3;
 	margin: 10px;
 }
 
-/***********************
-FOOTERS
-***********************/
+/* FOOTERS */
 
 #copyright {
    position: fixed;
-   bottom:15px;
+   bottom:30px;
    height:30px;
    width:100%;
+   font-size: 20px;
 }
 
 footer p {
 	float: right;
 	bottom: 0px;
-	color: lightgrey;
+	color: #D3D3D3;
+	font-size: 20px;
+	margin-right: 10px
 }
 
 footer img {
